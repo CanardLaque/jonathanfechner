@@ -1,0 +1,39 @@
+body {
+  background: url(../img/eagle.jpg) no-repeat fixed center center #666;
+  background-size: cover; }
+  body .web-nav {
+    width: 20%;
+    background: url(../img/menu-bg.png) repeat;
+    height: 100%;
+    overflow: auto;
+    float: left;
+    z-index: 20;
+    position: fixed;
+    left: 0px;
+    top: 0;
+    min-height: 600px; }
+    body .web-nav #menu-logo {
+      margin: 40px auto 40px auto;
+      display: block;
+      width: 130px;
+      height: auto; }
+    body .web-nav #menu-main {
+      list-style: none;
+      padding: 0px; }
+      body .web-nav #menu-main li {
+        text-align: left;
+        border-top: 1px solid #eee;
+        padding: 20px 0px; }
+        body .web-nav #menu-main li a {
+          margin-left: 10%;
+          text-decoration: none;
+          color: #ffffff;
+          position: relative; }
+        body .web-nav #menu-main li .arrow-bot {
+          float: right;
+          margin-right: 5%;
+          color: #ffffff; }
+      body .web-nav #menu-main #border-bot {
+        border-bottom: 1px solid #eee; }
+
+/*# sourceMappingURL=style.css.map */
