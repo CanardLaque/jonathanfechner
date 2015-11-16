@@ -21,16 +21,25 @@ body {
     body .web-nav #menu-main {
       list-style: none;
       padding: 0px; }
-      body .web-nav #menu-main li {
+      body .web-nav #menu-main .main-li {
         text-align: left;
         border-top: 1px solid #eee;
         padding: 20px 0px; }
-        body .web-nav #menu-main li a {
+        body .web-nav #menu-main .main-li .second-li {
+          text-decoration: none;
+          list-style: none;
+          margin: 5px; }
+          body .web-nav #menu-main .main-li .second-li a {
+            text-decoration: none;
+            color: #ffffff;
+            margin-left: 15%;
+            position: relative; }
+        body .web-nav #menu-main .main-li a {
           margin-left: 10%;
           text-decoration: none;
           color: #ffffff;
           position: relative; }
-        body .web-nav #menu-main li .arrow-bot {
+        body .web-nav #menu-main .main-li .arrow-bot {
           float: right;
           margin-right: 5%;
           color: #ffffff; }

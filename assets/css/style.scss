@@ -22,10 +22,21 @@ body{
     #menu-main{
       list-style: none;
       padding:0px;
-      li{
+      .main-li{
         text-align: left;
         border-top: 1px solid #eee;
         padding : 20px 0px;
+        .second-li{
+          text-decoration: none;
+          list-style: none;
+          margin: 5px;
+          a{
+            text-decoration: none;
+            color: #ffffff;
+            margin-left: 15%;
+            position: relative;
+          }
+        }
         a{
           margin-left: 10%;
           text-decoration: none;
