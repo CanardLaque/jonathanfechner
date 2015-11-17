@@ -9,18 +9,23 @@ myApp.config(function ($routeProvider) {
         controller: function(){}
       })
 
-      .when('/vins', {
-        templateUrl: 'pages/vins.html',
+      .when('/propos', {
+        templateUrl: 'pages/propos.html',
         controller: 'MainController'
       })
+      .when('/intervention', {
+        templateUrl: 'pages/intervention.html',
+        controller: 'MainController'
+      })
+
       .when('/contact', {
         templateUrl: 'pages/contact.html',
         controller: 'MainController'
       })
 
-      .when('/domaine', {
-        templateUrl: 'pages/domaine.html',
-        controller: 'MainController'
+      .when('/courstutos', {
+          templateUrl: 'pages/courstutos.html',
+          controller: 'MainController'
       });
 
 });
