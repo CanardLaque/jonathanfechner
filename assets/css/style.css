@@ -1,20 +1,10 @@
-#voile {
-  background: url("../img/voile.png") repeat;
-  position: fixed;
-  height: 100vh;
-  width: auto;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0; }
-
-.white {
-  color: #ffffff; }
-
+/*MENU*/
 body {
   max-width: 100vw;
   background: url(../img/eagle.jpg) no-repeat fixed center center #666;
-  background-size: cover; }
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+  font-weight: 200; }
   body .nav-rel {
     position: relative;
     z-index: -10;
@@ -23,7 +13,7 @@ body {
     height: 100%; }
   body .web-nav {
     width: 20%;
-    background: url(../img/menu-bg.png) repeat;
+    background-color: rgba(36, 51, 80, 0.65);
     height: 100%;
     overflow: auto;
     float: left;
@@ -50,7 +40,7 @@ body {
         padding: 20px 0px;
         transition: 500ms; }
         body .web-nav #menu-main .main-li:hover {
-          background-color: rgba(36, 51, 80, 0.3); }
+          background-color: rgba(160, 169, 168, 0.25); }
         body .web-nav #menu-main .main-li .second-li {
           text-decoration: none;
           list-style: none;
@@ -77,5 +67,53 @@ body {
           color: rgba(255, 255, 255, 0.9); }
       body .web-nav #menu-main #border-bot {
         border-bottom: 1px solid rgba(238, 238, 238, 0.3); }
+
+/*MENU end*/
+/*MAIN*/
+.mainhtml h1 {
+  color: #0d1021; }
+  .mainhtml h1 span {
+    font-size: 0.93em; }
+.mainhtml .botright {
+  float: right;
+  bottom: -490px;
+  right: 40px;
+  position: absolute;
+  text-align: right; }
+
+/*MAIN end*/
+/*PROPOS*/
+.proposhtml {
+  color: #ffffff; }
+
+/*PROPOS end*/
+/*BONUS*/
+#voile {
+  background: url("../img/voile.png") repeat;
+  position: fixed;
+  height: 100vh;
+  width: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+.white {
+  color: #ffffff; }
+
+.thin {
+  font-weight: 200; }
+
+.thin2 {
+  font-weight: 400; }
+
+.thin3 {
+  font-weight: 300; }
+
+.thinita {
+  font-weight: 100;
+  font-style: italic; }
+
+/*BONUS end*/
 
 /*# sourceMappingURL=style.css.map */
