@@ -34,6 +34,12 @@ myApp.controller('MainController', ['$scope', '$routeParams', function($scope, $
       $scope.IsHidden = $scope.IsHidden ? false : true;
   }
 
+    $scope.IsHiddenn = true;
+    $scope.ShowHidee = function () {
+        //If DIV is hidden it will be visible and vice versa.
+        $scope.IsHiddenn = $scope.IsHiddenn ? false : true;
+    }
+
 }]);
 
 
