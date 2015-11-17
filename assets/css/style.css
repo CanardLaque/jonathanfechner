@@ -21,29 +21,36 @@ body {
     body .web-nav #menu-main {
       list-style: none;
       padding: 0px; }
+      body .web-nav #menu-main .pointer-hand {
+        cursor: pointer;
+        cursor: hand; }
       body .web-nav #menu-main .main-li {
         text-align: left;
-        border-top: 1px solid #eee;
+        border-top: 1px solid rgba(238, 238, 238, 0.3);
         padding: 20px 0px; }
         body .web-nav #menu-main .main-li .second-li {
           text-decoration: none;
           list-style: none;
           margin: 5px; }
+          body .web-nav #menu-main .main-li .second-li .fa {
+            color: rgba(255, 255, 255, 0.9); }
+          body .web-nav #menu-main .main-li .second-li .glyphicon {
+            color: rgba(255, 255, 255, 0.9); }
           body .web-nav #menu-main .main-li .second-li a {
             text-decoration: none;
-            color: #ffffff;
-            margin-left: 15%;
+            color: rgba(255, 255, 255, 0.9);
+            margin-left: 6%;
             position: relative; }
         body .web-nav #menu-main .main-li a {
           margin-left: 10%;
           text-decoration: none;
-          color: #ffffff;
+          color: rgba(255, 255, 255, 0.9);
           position: relative; }
         body .web-nav #menu-main .main-li .arrow-bot {
           float: right;
           margin-right: 5%;
-          color: #ffffff; }
+          color: rgba(255, 255, 255, 0.9); }
       body .web-nav #menu-main #border-bot {
-        border-bottom: 1px solid #eee; }
+        border-bottom: 1px solid rgba(238, 238, 238, 0.3); }
 
 /*# sourceMappingURL=style.css.map */
