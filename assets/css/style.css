@@ -12,6 +12,7 @@
   color: #ffffff; }
 
 body {
+  max-width: 100vw;
   background: url(../img/eagle.jpg) no-repeat fixed center center #666;
   background-size: cover; }
   body .nav-rel {
@@ -46,11 +47,16 @@ body {
       body .web-nav #menu-main .main-li {
         text-align: left;
         border-top: 1px solid rgba(238, 238, 238, 0.3);
-        padding: 20px 0px; }
+        padding: 20px 0px;
+        transition: 500ms; }
+        body .web-nav #menu-main .main-li:hover {
+          background-color: rgba(36, 51, 80, 0.3); }
         body .web-nav #menu-main .main-li .second-li {
           text-decoration: none;
           list-style: none;
           margin: 5px; }
+          body .web-nav #menu-main .main-li .second-li:hover {
+            transform: scale(1.05); }
           body .web-nav #menu-main .main-li .second-li .fa {
             color: rgba(255, 255, 255, 0.9); }
           body .web-nav #menu-main .main-li .second-li .glyphicon {
