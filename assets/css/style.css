@@ -1,6 +1,25 @@
+#voile {
+  background: url("../img/voile.png") repeat;
+  position: fixed;
+  height: 100vh;
+  width: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+.white {
+  color: #ffffff; }
+
 body {
   background: url(../img/eagle.jpg) no-repeat fixed center center #666;
   background-size: cover; }
+  body .nav-rel {
+    position: relative;
+    z-index: -10;
+    opacity: 0;
+    width: 20%;
+    height: 100%; }
   body .web-nav {
     width: 20%;
     background: url(../img/menu-bg.png) repeat;
