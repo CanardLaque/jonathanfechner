@@ -90,8 +90,8 @@ body {
     font-size: 0.93em; }
 .mainhtml .botright {
   float: right;
-  bottom: -490px;
-  right: 40px;
+  bottom: -540%;
+  right: 10%;
   position: absolute;
   text-align: right; }
 
