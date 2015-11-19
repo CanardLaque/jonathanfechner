@@ -70,11 +70,14 @@
 
 <div class="nav-rel"></div>
 <nav class="web-nav">
-    <a href="#/"><img id="menu-logo" src="assets/img/jf2.png" alt="logo"/></a>
+    <div id="menu-logo">
+        <a href="#/"><img class="center-block"  src="assets/img/jf2.png" alt="logo"/></a>
+    </div>
     <ul id="menu-main" class="">
         <li class="main-li "><a href="#/propos">A propos</a><span  class="" aria-hidden="true"></span></li>
-        <li class="main-li pointer-hand"><a href="#/intervention">Domaines d'intervention</a><span ng-click="ShowHide()" class="arrow-bot  glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
-            <ul ng-hide="IsHidden">
+        <li class="main-li pointer-hand" ng-init="isHidden = true"><a href="#/intervention">Domaines d'intervention</a>
+            <span ng-click="isHidden = !isHidden" class="arrow-bot  glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
+            <ul ng-hide="isHidden">
                 <li class="second-li"><i class="fa fa-diamond"></i><a href="#">Design 3D </a></li>
                 <li class="second-li"><span class="glyphicon glyphicon-globe"></span><a href="#">Site Web </a></li>
                 <li class="second-li"><span class="glyphicon glyphicon-film"></span><a href="#">Vidéo </a></li>
@@ -84,8 +87,10 @@
             </ul>
         </li>
         <li class="main-li"><a href="#/contact">Contact</a><span  class="" aria-hidden="true"></span></li>
-        <li class="main-li pointer-hand" id="border-bot" ><a href="#/courstutos">Cours & Tutoriels</a><span ng-click="ShowHidee()" class="arrow-bot  glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
-            <ul ng-hide="IsHiddenn">
+        <li class="main-li pointer-hand" id="border-bot" ng-init="isHidden = true">
+            <a href="#/courstutos">Cours & Tutoriels</a>
+            <span ng-click="isHidden = !isHidden" class="arrow-bot  glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
+            <ul ng-hide="isHidden">
                 <li class="second-li"><i class="fa  fa-lightbulb-o"></i><a href="http://www.jonathanfechner.fr/cours_et_tutoriels.php/#avant-projets">Avant-projet</a></li>
                 <li class="second-li"><i class="fa  fa-briefcase"></i><a href="http://www.jonathanfechner.fr/cours_et_tutoriels.php/#gestion-projets">Gestion de projet</a></li>
                 <li class="second-li"><i class="fa  fa-spinner"></i><a href="http://www.jonathanfechner.fr/cours_et_tutoriels.php/#conception-projets">Phase de conception</a></li>
@@ -94,6 +99,7 @@
             </ul>
         </li>
     </ul>
+    <p class="text-center copyright"><i class="fa fa-copyright"></i> Copyright - Jonathan Fechner</p>
 </nav>
 
 <div ng-view class="main-wrapper"></div>

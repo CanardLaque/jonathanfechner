@@ -1,9 +1,8 @@
-var myApp = angular.module('myApp', ['ngRoute','ngAnimate']);
+var myApp = angular.module('myApp', ['ngRoute','ngAnimate']); //ui-router
 
 myApp.config(function ($routeProvider) {
 
   $routeProvider
-
       .when('/', {
         templateUrl: 'pages/main.html',
         controller: function(){}
@@ -32,24 +31,7 @@ myApp.config(function ($routeProvider) {
 
 myApp.controller('MainController', ['$scope', '$routeParams', function($scope, $routeParams) {
 
-  //This will hide the DIV by default.
-  $scope.IsHidden = true;
-  $scope.ShowHide = function () {
-      //If DIV is hidden it will be visible and vice versa.
-      $scope.IsHidden = $scope.IsHidden ? false : true;
-  }
 
-    $scope.IsHiddenn = true;
-    $scope.ShowHidee = function () {
-        //If DIV is hidden it will be visible and vice versa.
-        $scope.IsHiddenn = $scope.IsHiddenn ? false : true;
-    }
+
 
 }]);
-
-
-/*  $scope.visible = false ;
-
- $scope.hideshow = function (){
- $scope.visible = !$scope.visible;
- };*/

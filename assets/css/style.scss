@@ -28,10 +28,22 @@ body{
     opacity: 0.95;
 
     #menu-logo{
-      margin: 40px auto 40px auto;
-      display: block;
-      width: 130px;
-      height: auto;
+      height: 190px;
+      position: relative;
+      img{
+        top: 30px;
+        display: block;
+        width: 130px;
+        height: auto;
+        border-radius: 1000px;
+        position: relative;
+      }
+      &:hover {
+        img{
+          background-color: rgba(160, 169, 168, 0.25);
+          transition:500ms;
+        }
+      }
     }
     #menu-main{
       list-style: none;
@@ -46,7 +58,7 @@ body{
         padding : 20px 0px;
         transition : 500ms;
         &:hover{
-          background-color: rgba(160, 169, 168, 0.25);;        }
+          background-color: rgba(160, 169, 168, 0.25);        }
         .second-li{
           text-decoration: none;
           list-style: none;
@@ -83,6 +95,13 @@ body{
         border-bottom: 1px solid rgba(238, 238, 238, 0.3);
       }
     }
+    .copyright{
+      bottom: 0px;
+      position: absolute;
+      color: #ffffff;
+      text-align: center;
+      margin-left: 30px;
+    }
   }
 }
 /*MENU end*/
@@ -115,6 +134,13 @@ body{
 /*PROPOS*/
 .proposhtml{
   color: #ffffff;
+  .image{
+    img{
+      border-radius: 3px;
+      height: 260px;
+    }
+
+  }
 }
 
 

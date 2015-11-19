@@ -24,10 +24,18 @@ body {
     min-height: 600px;
     opacity: 0.95; }
     body .web-nav #menu-logo {
-      margin: 40px auto 40px auto;
-      display: block;
-      width: 130px;
-      height: auto; }
+      height: 190px;
+      position: relative; }
+      body .web-nav #menu-logo img {
+        top: 30px;
+        display: block;
+        width: 130px;
+        height: auto;
+        border-radius: 1000px;
+        position: relative; }
+      body .web-nav #menu-logo:hover img {
+        background-color: rgba(160, 169, 168, 0.25);
+        transition: 500ms; }
     body .web-nav #menu-main {
       list-style: none;
       padding: 0px; }
@@ -67,6 +75,12 @@ body {
           color: rgba(255, 255, 255, 0.9); }
       body .web-nav #menu-main #border-bot {
         border-bottom: 1px solid rgba(238, 238, 238, 0.3); }
+    body .web-nav .copyright {
+      bottom: 0px;
+      position: absolute;
+      color: #ffffff;
+      text-align: center;
+      margin-left: 30px; }
 
 /*MENU end*/
 /*MAIN*/
@@ -85,6 +99,9 @@ body {
 /*PROPOS*/
 .proposhtml {
   color: #ffffff; }
+  .proposhtml .image img {
+    border-radius: 3px;
+    height: 260px; }
 
 /*PROPOS end*/
 /*BONUS*/
