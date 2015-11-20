@@ -208,6 +208,9 @@ body {
 .cache-lien {
   color: #ffffff;
   text-decoration: none; }
+  .cache-lien:hover {
+    color: #ffffff;
+    text-decoration: none; }
 
 .no-mp {
   margin-right: 0px;
