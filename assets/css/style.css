@@ -122,7 +122,8 @@ body {
   margin-top: 5%;
   margin-bottom: -10%;
   margin-left: 5%;
-  text-align: center; }
+  text-align: center;
+  font-weight: 2rem; }
 
 .thinita {
   font-weight: 100;
