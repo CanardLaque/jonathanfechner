@@ -1,6 +1,8 @@
 
 /*MENU*/
 
+
+
 body{
   max-width: 100vw;
   background: url(../img/eagle.jpg) no-repeat fixed center center #666;
@@ -171,24 +173,40 @@ body{
   right: 0;
   bottom: 0;
 }
-.white{
-  color: #ffffff;
+
+.fs1{
+  font-size: 1.8rem;
 }
 
 .thin{
   font-weight: 200;
-
+  color: #ffffff;
 }
 .thin2{
   font-weight: 400;
+  color: #ffffff;
 }
 .thin3{
   font-weight: 300;
+  color: #ffffff;
 }
-
 .thinita{
   font-weight: 100;
   font-style: italic;
+  color: #ffffff;
+}
+
+.decalage-top{
+  padding-top: 10%;
+}
+.decalage-bot{
+  padding-bottom: 10%;
+}
+.border-top{
+  border-top: 1px solid #ffffff;
+}
+.border-bot{
+  border-bottom: 1px solid #ffffff;
 }
 
 /*BONUS end*/
