@@ -25,7 +25,29 @@ myApp.config(function ($routeProvider) {
       .when('/courstutos', {
           templateUrl: 'pages/courstutos.html',
           controller: 'MainController'
-      });
+      })
+      .when('/avantprojet', {
+          templateUrl: 'pages/cour/avantprojet.html',
+          controller: 'MainController'
+      })
+
+      .when('/courstuto', {
+          templateUrl: 'pages/courstutos.html',
+          controller: 'MainController'
+      })
+      .when('/conception', {
+          templateUrl: 'pages/cour/conception.html',
+          controller: 'MainController'
+      })
+      .when('/recettage', {
+          templateUrl: 'pages/cour/recettage.html',
+          controller: 'MainController'
+      })
+      .when('/utilisateur', {
+          templateUrl: 'pages/cour/utilisateur.html',
+          controller: 'MainController'
+      })
+  ;
 
 });
 
