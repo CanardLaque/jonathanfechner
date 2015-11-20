@@ -90,25 +90,33 @@ body {
     font-size: 0.93em; }
 .mainhtml .botright {
   float: right;
-  bottom: 10px;
+  bottom: 90px;
   right: 10px;
   position: relative;
   text-align: right; }
 
 .thin {
-  font-weight: 200; }
+  font-weight: 200;
+  color: #ffffff; }
 
 .thin2 {
-  font-weight: 400; }
+  font-weight: 400;
+  color: #ffffff; }
+
+.thin21 {
+  font-weight: 400;
+  color: #000000; }
 
 .thin3 {
-  font-weight: 300; }
+  font-weight: 300;
+  color: #ffffff; }
 
 .thin4 {
   font-weight: 200;
   margin-right: 5%;
   margin-top: 25%;
-  text-align: right; }
+  text-align: right;
+  color: #ffffff; }
 
 .scrollmain {
   margin-top: 5%;
@@ -150,7 +158,8 @@ body {
   bottom: 0; }
 
 .fs1 {
-  font-size: 1.8rem; }
+  font-size: 1.8rem;
+  color: #ffffff; }
 
 .white {
   color: #ffffff; }
@@ -164,11 +173,50 @@ body {
 .decalage-right {
   padding-right: 20px; }
 
+.decalage-lleft {
+  margin-left: 15px; }
+
 .border-top {
   border-top: 1px solid #ffffff; }
 
 .border-bot {
   border-bottom: 1px solid #ffffff; }
+
+.btn-vic {
+  padding: 10px 40px;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.03);
+  transition: 500ms; }
+  .btn-vic:hover {
+    border: 1.2px solid white;
+    color: #ffffff; }
+
+.btn-vic-actif {
+  padding: 10px 40px;
+  color: #ffffff;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.03);
+  transition: 500ms; }
+
+.m-l-l {
+  margin-left: 6px; }
+
+.cache-lien {
+  color: #ffffff;
+  text-decoration: none; }
+
+.no-mp {
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.imgsize {
+  width: 300px;
+  height: auto; }
 
 /*BONUS end*/
 
