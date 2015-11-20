@@ -90,10 +90,36 @@ body {
     font-size: 0.93em; }
 .mainhtml .botright {
   float: right;
-  bottom: -540%;
-  right: 10%;
-  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  position: relative;
   text-align: right; }
+
+.thin {
+  font-weight: 200; }
+
+.thin2 {
+  font-weight: 400; }
+
+.thin3 {
+  font-weight: 300; }
+
+.thin4 {
+  font-weight: 200;
+  margin-right: 5%;
+  margin-top: 25%;
+  text-align: right; }
+
+.scrollmain {
+  margin-top: 5%;
+  margin-bottom: -10%;
+  margin-left: 5%;
+  text-align: center; }
+
+.thinita {
+  font-weight: 100;
+  font-style: italic;
+  color: #ffffff; }
 
 /*MAIN end*/
 /*PROPOS*/
@@ -125,23 +151,6 @@ body {
 
 .fs1 {
   font-size: 1.8rem; }
-
-.thin {
-  font-weight: 200;
-  color: #ffffff; }
-
-.thin2 {
-  font-weight: 400;
-  color: #ffffff; }
-
-.thin3 {
-  font-weight: 300;
-  color: #ffffff; }
-
-.thinita {
-  font-weight: 100;
-  font-style: italic;
-  color: #ffffff; }
 
 .decalage-top {
   padding-top: 8%; }
